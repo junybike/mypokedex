@@ -28,8 +28,8 @@ async function fetchPokeDataBeforeRedirect(id)
         await Promise.all([fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
             .then((res) => res.json()
         ),
-        fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
-            .then((rers) => res.json()
+        fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`)
+            .then((res) => res.json()
         ),
     ]);
     return true;
