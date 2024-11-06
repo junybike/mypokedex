@@ -217,8 +217,8 @@ function displayPokemonDetails(pokemon)
         hp: "HP",
         attack: "ATK",
         defense: "DEF",
-        "special-attack": "SATK",
-        "special-defense": "SDEF",
+        "special-attack": "S.ATK",
+        "special-defense": "S.DEF",
         speed: "SPD",
     };
 
